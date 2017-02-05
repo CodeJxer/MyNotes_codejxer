@@ -1,6 +1,6 @@
 #python urllib模块源码学习
 ----
-*  所有方法:    
+*  所有方法(可点击函数名跳转):    
 [urlopen](#1)  
 [URLopener](#2)  
 [FancyURLopener](#3)  
