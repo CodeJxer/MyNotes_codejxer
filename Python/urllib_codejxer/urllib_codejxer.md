@@ -37,9 +37,8 @@
 ----
 方法详解
 ----
-
-###<code id="1">urlopen():</code>     
-源码：  
+###<code id="1">urlopen():</code>
+源码:
 
 	_urlopener = None  
 	def urlopen(url, data=None, proxies=None, context=None):
@@ -69,8 +68,18 @@ urlopen返回对象提供方法：
 - getcode()：返回Http状态码。如果是http请求，200请求成功完成;404网址未找到
 - geturl()：返回请求的url
 
+###<code id="2">URLopener():</code>
+源码:
+
+
+
+###<code id="3">FancyURLopener():</code>
+源码:
+
+
+
 ###<code id="4">urlretrieve():</code>
-源码：
+源码:
 
 	def urlretrieve(url, filename=None, reporthook=None, data=None, context=None):
 	    global _urlopener
@@ -84,3 +93,124 @@ urlopen返回对象提供方法：
 
 urlretrieve方法将url定位到的html文件下载到你本地的硬盘中。如果不指定filename，则会存为临时文件。   
 urlretrieve()返回一个二元组(filename,mine_hdrs)
+
+###<code id="5">urlcleanup():</code>
+源码:
+
+
+
+###<code id="6">quote():</code>
+源码:
+
+
+
+###<code id="7">quote_plus():</code>
+源码:
+
+
+
+###<code id="8">unquote():</code>
+源码:
+
+
+
+###<code id="9">unquote_plus():</code>
+源码:
+
+
+
+###<code id="10">urlencode():</code>
+源码:
+
+
+
+###<code id="11">url2pathname():</code>
+源码:
+
+
+
+###<code id="12">pathname2url():</code>
+源码:
+
+
+
+###<code id="13">splittag():</code>
+源码:
+
+
+
+###<code id="14">localhost():</code>
+源码:
+
+
+
+###<code id="15">thishost():</code>
+源码:
+
+
+
+###<code id="16">ftperrors():</code>
+源码:
+
+
+
+###<code id="17">basejoin():</code>
+源码:
+
+
+
+###<code id="18">unwrap():</code>
+源码:
+
+
+
+###<code id="19">splittype():</code>
+源码:
+
+
+
+###<code id="20">splithost():</code>
+源码:
+
+
+
+###<code id="21">splituser():</code>
+源码:
+
+
+
+###<code id="22">splitpasswd():</code>
+源码:
+
+
+
+###<code id="23">splitport():</code>
+源码:
+
+
+
+###<code id="24">splitnport():</code>
+源码:
+
+
+
+###<code id="25">splitquery():</code>
+源码:
+
+
+
+###<code id="26">splitattr():</code>
+源码:
+
+
+
+###<code id="27">splitvalue():</code>
+源码:
+
+
+
+###<code id="28">getproxies():</code>
+源码:
+
+
+
